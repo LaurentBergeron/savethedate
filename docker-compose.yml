@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - ./dweber.nginx.conf:/etc/nginx/nginx.conf
+      - ./html:/usr/share/nginx/html
+    ports:
+      - 8000:80
+    networks:
+      default:
+        aliases:
+          - dweber
+networks:
+  default:
+    name: multi-project-network

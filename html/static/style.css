@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sora&display=swap');
+
+/* :root {
+    --primary-color: rgba(43, 103, 119, 0.9);
+    --secondary-color: #98ecda;
+    --third-color: #b33320;
+    --fourth-color: #f2f2f2f2;
+} */
+
+:root {
+    --primary-color: rgba(6, 47, 79, 0.9);
+    --primary-color-no-alpha: rgb(39, 17, 38, 0.9);
+    --secondary-color: #98ecda;
+    /* --secondary-color: #813772; */
+    --third-color: #b82601;
+    --fourth-color: #f2f2f2f2;
+}
+
+
+p.names {
+    font-family: 'Great Vibes';
+    text-align: center;
+    width:100%;
+    font-size: 400%;
+}
+
+p.title {
+    font-family: Merienda;
+    text-align: center;
+    width:100%;
+    font-size: xx-large;
+}
+
+body {
+    font-family: 'Sora';
+    font-size: larger;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Merienda';
+    text-align: center;
+    font-size: 200%;
+    color: var(--fourth-color);
+}
+hr {
+    width:50%;
+    margin:0 auto;
+    color: var(--fourth-color);
+}
+
+h2 {
+    font-style: italic;
+}
+
+.banner {
+    color: var(--fourth-color);
+    width: 60%;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 300px;
+}
+
+.banner-not-first {
+    background-color: var(--primary-color);
+
+}
+
+
+.banner-first {
+    background-color: var(--primary-color-no-alpha);
+}
+
+
+.banner-inside {
+    width: 100%;
+}
+
+a.link, a.link:hover, a.link:focus, a.link:active {
+    text-decoration:none; 
+    color: var(--third-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a.phone, a.phone:hover, a.phone:focus, a.phone:active {
+    text-decoration:none; 
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+iframe {
+    display:block;
+    margin: 0 auto;
+}
+
+/* LIST #2 */
+/* #list { width:80%; } */
+#list ol { 
+    font-style:italic;
+    font-size: 150%;
+    color: var(--secondary-color); 
+}
+#list ol li {
+    margin-left: 25px;
+}
+#list ol li p {
+    padding:8px;
+    font-style:normal;
+    font-size: 66%;
+    color: var(--fourth-color);  
+    border-left: 1px solid var(--secondary-color);
+    margin: 0;
+    margin-left: 10px;
+}
+#list ol li p em { display: block; }
+
