@@ -71,9 +71,9 @@ h2 {
 
 @media screen and (max-device-aspect-ratio: 1) {
     .banner {
-        width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
