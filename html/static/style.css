@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zen+Kurenaido&display=swap');
 
 /* :root {
     --primary-color: rgba(43, 103, 119, 0.9);
@@ -10,8 +10,8 @@
 } */
 
 :root {
-    --primary-color: rgba(6, 47, 79, 0.9);
-    --primary-color-no-alpha: rgb(39, 17, 38, 0.9);
+    --primary-color: rgba(5, 38, 63, 0.97);
+    --primary-color-no-alpha: rgb(39, 17, 38, 0.97);
     --secondary-color: #98ecda;
     /* --secondary-color: #813772; */
     --third-color: #b82601;
@@ -26,15 +26,15 @@ p.names {
 }
 
 p.title {
-    font-family: Merienda;
+    font-family:'Livvic';
     text-align: center;
     width:100%;
     font-size: xx-large;
 }
 
 body {
-    font-family: 'Sora';
-    font-size: larger;
+    font-family: 'Livvic';
+    font-size: x-large;
     background-image: url('images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ body {
 }
 
 h1 {
-    font-family: 'Merienda';
+    font-family: 'Zen Kurenaido';
     text-align: center;
     font-size: 200%;
     color: var(--fourth-color);
@@ -58,7 +58,7 @@ hr {
 }
 
 h2 {
-    font-family: 'Merienda';
+    font-family: 'Zen Kurenaido';
     font-style: italic;
 }
 
@@ -94,6 +94,11 @@ h2 {
     background-color: var(--primary-color-no-alpha);
 }
 
+.banner-last {
+    background-color: var(--primary-color-no-alpha);
+    margin-bottom: 0px;
+}
+
 
 .banner-inside {
     width: 100%;
@@ -107,7 +112,7 @@ a.link, a.link:hover, a.link:focus, a.link:active {
 }
 
 a.phone, a.phone:hover, a.phone:focus, a.phone:active {
-    text-decoration:none; 
+    text-decoration:underline; 
     color: var(--secondary-color);
     font-weight: bold;
 }
