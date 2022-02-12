@@ -35,13 +35,28 @@ p.title {
 body {
     font-family: 'Livvic';
     font-size: x-large;
-    background-image: url('images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     padding: 0px;
     margin: 0px;
+}
+
+.img1 {
+    background-image: url('images/img1.jpg');
+}
+
+.img2 {
+    background-image: url('images/img2.jpg');
+}
+
+.img3 {
+    background-image: url('images/img3.jpg');
+}
+
+.img4 {
+    background-image: url('images/img4.jpg');
 }
 
 h1 {
