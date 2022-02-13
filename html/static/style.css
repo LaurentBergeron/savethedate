@@ -38,6 +38,7 @@ body {
     /* background-size: cover; */
     /* background-position: center; */
     background-color: var(--primary-color-no-alpha);
+    transition: all 0.1s ease-in-out;
     /* background-size: 1024px; */
     /* -webkit-background-size: 2000px; */
     /* transition: all 0.8s ease-in-out; */
@@ -53,7 +54,6 @@ body {
     left:0;
     right:0;
     z-index:-1; /* needed to keep in the background */
-    background: url('images/img1.jpg') center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -61,19 +61,19 @@ body {
 }
 
 .img1 {
-    background-image: url('images/img1.jpg');
+    background: url('images/img1.jpg') center center;
 }
 
 .img2 {
-    background-image: url('images/img2.jpg');
+    background: url('images/img2.jpg') center center;
 }
 
 .img3 {
-    background-image: url('images/img3.jpg');
+    background: url('images/img3.jpg') center center;
 }
 
 .img4 {
-    background-image: url('images/img4.jpg');
+    background: url('images/img4.jpg') center center;
 }
 
 h1 {
