@@ -3,7 +3,7 @@ $(window).scroll(function() {
         $("body").addClass("img1")
         $("body").removeClass("img2")
         $("body").removeClass("img3")
-    } else if ($(window).scrollTop() < 4000) {
+    } else if ($(window).scrollTop() < 3600) {
         $("body").addClass("img2")
         $("body").removeClass("img1")
         $("body").removeClass("img3")
