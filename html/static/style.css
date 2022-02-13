@@ -39,7 +39,7 @@ body {
     background-position: center;
     background-color: var(--primary-color-no-alpha);
     background-size: 1024px;
-    -webkit-background-size: 1024px;
+    -webkit-background-size: 500px;
     transition: all 0.8s ease-in-out;
     padding: 0px;
     margin: 0px;
