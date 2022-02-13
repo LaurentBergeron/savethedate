@@ -1,9 +1,9 @@
 $(window).scroll(function() {
-    if ($(window).scrollTop() < 1200) {
+    if ($(window).scrollTop() < 1700) {
         $("body").addClass("img1")
         $("body").removeClass("img2")
         $("body").removeClass("img3")
-    } else if ($(window).scrollTop() < 3000) {
+    } else if ($(window).scrollTop() < 4000) {
         $("body").addClass("img2")
         $("body").removeClass("img1")
         $("body").removeClass("img3")

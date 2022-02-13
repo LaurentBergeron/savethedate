@@ -81,7 +81,7 @@ h2 {
     color: var(--fourth-color);
     margin: 0px;
     padding: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
 }
 
 @media screen and (max-device-width: 480px) {
