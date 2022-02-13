@@ -2,18 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Zen+Kurenaido&display=swap');
 
-/* :root {
-    --primary-color: rgba(43, 103, 119, 0.9);
-    --secondary-color: #98ecda;
-    --third-color: #b33320;
-    --fourth-color: #f2f2f2f2;
-} */
 
 :root {
     --primary-color: rgba(5, 38, 63, 0.97);
     --primary-color-no-alpha: rgb(39, 17, 38, 0.97);
     --secondary-color: #98ecda;
-    /* --secondary-color: #813772; */
     --third-color: #b82601;
     --fourth-color: #f2f2f2f2;
 }
