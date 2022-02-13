@@ -38,6 +38,8 @@ body {
     background-size: cover;
     background-position: center;
     background-color: var(--primary-color-no-alpha);
+    background-size: 1024px;
+    -webkit-background-size: 1024px;
     transition: all 0.8s ease-in-out;
     padding: 0px;
     margin: 0px;
@@ -45,8 +47,6 @@ body {
 
 .img1 {
     background-image: url('images/img1.jpg');
-    background-size: 1024px;
-    -webkit-background-size: 2014px;
 }
 
 .img2 {
