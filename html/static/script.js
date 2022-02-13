@@ -1,9 +1,10 @@
 $(window).scroll(function() {
-    if ($(window).scrollTop() < 1700) {
+    var total_height = $(".background").style.height
+    if ($(window).scrollTop() < total_height/3.0) {
         $(".background").addClass("img1")
         $(".background").removeClass("img2")
         $(".background").removeClass("img3")
-    } else if ($(window).scrollTop() < 4000) {
+    } else if ($(window).scrollTop() < total_height/1.5) {
         $(".background").addClass("img2")
         $(".background").removeClass("img1")
         $(".background").removeClass("img3")
