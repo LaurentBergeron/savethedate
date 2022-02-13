@@ -1,5 +1,8 @@
 $(window).scroll(function() {
-    var total_height = $(".background").style.height
+    var total_height = document.body.scrollHeight;
+    if (total_height < 1) {
+        total_height = 4000
+    }
     if ($(window).scrollTop() < total_height/3.0) {
         $(".background").addClass("img1")
         $(".background").removeClass("img2")
